@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mnpan/1052Testing/project/libchewing/UnitTest/UnitTest.cpp" "/home/mnpan/1052Testing/project/libchewing/UnitTest/CMakeFiles/UintTest.dir/UnitTest.cpp.o"
+  "/home/joe/libchewing/UnitTest/UnitTest.cpp" "/home/joe/libchewing/UnitTest/CMakeFiles/UintTest.dir/UnitTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

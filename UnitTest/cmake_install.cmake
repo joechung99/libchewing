@@ -1,4 +1,4 @@
-# Install script for directory: /home/mnpan/1052Testing/project/libchewing/UnitTest
+# Install script for directory: /home/joe/libchewing/UnitTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mnpan/1052Testing/project/libchewing/UnitTest/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/joe/libchewing/UnitTest/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

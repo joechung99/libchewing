@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mnpan/1052Testing/project/libchewing/UnitTest/UnitTest.cpp
+/home/joe/libchewing/UnitTest/UnitTest.cpp
 gtest/gtest.h
 -
 chewing.h
