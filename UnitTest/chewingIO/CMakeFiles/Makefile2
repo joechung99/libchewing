@@ -54,45 +54,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joe/libchewing/UnitTest
+CMAKE_SOURCE_DIR = /home/joe/libchewing/UnitTest/chewingIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joe/libchewing/UnitTest
+CMAKE_BINARY_DIR = /home/joe/libchewing/UnitTest/chewingIO
 
 #=============================================================================
-# Target rules for target CMakeFiles/UnitTest.dir
+# Target rules for target CMakeFiles/testchewingIO.dir
 
 # All Build rule for target.
-CMakeFiles/UnitTest.dir/all:
-	$(MAKE) -f CMakeFiles/UnitTest.dir/build.make CMakeFiles/UnitTest.dir/depend
-	$(MAKE) -f CMakeFiles/UnitTest.dir/build.make CMakeFiles/UnitTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joe/libchewing/UnitTest/CMakeFiles --progress-num=1,2 "Built target UnitTest"
-.PHONY : CMakeFiles/UnitTest.dir/all
+CMakeFiles/testchewingIO.dir/all:
+	$(MAKE) -f CMakeFiles/testchewingIO.dir/build.make CMakeFiles/testchewingIO.dir/depend
+	$(MAKE) -f CMakeFiles/testchewingIO.dir/build.make CMakeFiles/testchewingIO.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joe/libchewing/UnitTest/chewingIO/CMakeFiles --progress-num=1,2 "Built target testchewingIO"
+.PHONY : CMakeFiles/testchewingIO.dir/all
 
 # Include target in all.
-all: CMakeFiles/UnitTest.dir/all
+all: CMakeFiles/testchewingIO.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/UnitTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/libchewing/UnitTest/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/UnitTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/libchewing/UnitTest/CMakeFiles 0
-.PHONY : CMakeFiles/UnitTest.dir/rule
+CMakeFiles/testchewingIO.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/libchewing/UnitTest/chewingIO/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testchewingIO.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joe/libchewing/UnitTest/chewingIO/CMakeFiles 0
+.PHONY : CMakeFiles/testchewingIO.dir/rule
 
 # Convenience name for target.
-UnitTest: CMakeFiles/UnitTest.dir/rule
+testchewingIO: CMakeFiles/testchewingIO.dir/rule
 
-.PHONY : UnitTest
-
-# clean rule for target.
-CMakeFiles/UnitTest.dir/clean:
-	$(MAKE) -f CMakeFiles/UnitTest.dir/build.make CMakeFiles/UnitTest.dir/clean
-.PHONY : CMakeFiles/UnitTest.dir/clean
+.PHONY : testchewingIO
 
 # clean rule for target.
-clean: CMakeFiles/UnitTest.dir/clean
+CMakeFiles/testchewingIO.dir/clean:
+	$(MAKE) -f CMakeFiles/testchewingIO.dir/build.make CMakeFiles/testchewingIO.dir/clean
+.PHONY : CMakeFiles/testchewingIO.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/testchewingIO.dir/clean
 
 .PHONY : clean
 

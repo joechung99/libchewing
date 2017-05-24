@@ -9,6 +9,8 @@
 /home/joe/libchewing/UnitTest/UnitTest.cpp
 gtest/gtest.h
 -
+simulate.c
+-
 chewing.h
 -
 iostream

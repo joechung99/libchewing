@@ -1,3 +1,3 @@
-/home/joe/libchewing/UnitTest/CMakeFiles/rebuild_cache.dir
 /home/joe/libchewing/UnitTest/CMakeFiles/edit_cache.dir
-/home/joe/libchewing/UnitTest/CMakeFiles/UintTest.dir
+/home/joe/libchewing/UnitTest/CMakeFiles/rebuild_cache.dir
+/home/joe/libchewing/UnitTest/CMakeFiles/UnitTest.dir

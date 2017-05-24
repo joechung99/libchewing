@@ -5,7 +5,6 @@
 /*#ifdef __cplusplus
 extern "C" {
 #endif*/
-
 #include <chewing.h>
 //#include <testhelper.h>
 
